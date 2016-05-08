@@ -41,7 +41,8 @@ public final class Keyboard extends InputBase implements KeyListener
     /**The enter key of the keyboard.*/
     public static final int ENTER_KEY = 10;
 
-    private Hashtable keysPressed;
+    @SuppressWarnings("rawtypes")
+	private Hashtable keysPressed;
 
     /**
      * Create instance of class Keyboard with the following keys and its behavior:
@@ -50,7 +51,8 @@ public final class Keyboard extends InputBase implements KeyListener
      * DETECT_INITIAL_PRESS_ONLY.
      * @version 1.0
      */
-    public Keyboard()
+    @SuppressWarnings("rawtypes")
+	public Keyboard()
     {
             keysPressed = new Hashtable();
 
@@ -103,7 +105,8 @@ public final class Keyboard extends InputBase implements KeyListener
      * @see InputBase
      * @version 1.0
      */
-    public void addKey(int key, int behavior)
+    @SuppressWarnings("unchecked")
+	public void addKey(int key, int behavior)
     {
             removeKey(key);
             keysPressed.put(key, new InputAction(behavior));            

@@ -597,6 +597,7 @@ public class Sprite extends Animation
 
             Vec2 vec = new Vec2(newX,newY);
             body.setXForm(vec, (float)this.rotation);
+            body.
             this.y=y;
 
         }

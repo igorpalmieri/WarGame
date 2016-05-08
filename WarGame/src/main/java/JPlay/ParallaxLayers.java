@@ -9,6 +9,7 @@ import java.util.ArrayList;
  * --UFF---
  * Computer Science
  */
+@SuppressWarnings("unused")
 public class ParallaxLayers extends GameImage{
 
    

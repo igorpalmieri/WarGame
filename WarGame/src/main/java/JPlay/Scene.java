@@ -35,8 +35,10 @@ public class Scene
     private GameImage backDrop;
     private GameImage[] tiles;
     private String nameImages[];//It is used when we want to save the state of the scene
-    private ArrayList tileLayer;
-    private ArrayList overlays;
+    @SuppressWarnings("rawtypes")
+	private ArrayList tileLayer;
+    @SuppressWarnings("rawtypes")
+	private ArrayList overlays;
     private int drawStartX = 0;
     private int drawStartY = 0;
     private int centerPositionX;
@@ -56,7 +58,8 @@ public class Scene
      * Loads a scene from a file.
      * @param sceneFile File path.
      */
-    public void loadFromFile(String sceneFile)
+    @SuppressWarnings("rawtypes")
+	public void loadFromFile(String sceneFile)
     {
         tileLayer = new ArrayList();
         overlays = new ArrayList();
