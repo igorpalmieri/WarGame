@@ -1,9 +1,6 @@
 package UffSoft.WarGame;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
