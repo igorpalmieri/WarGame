@@ -52,6 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Continente.cs" />
+    <Compile Include="Model\Exercito.cs" />
+    <Compile Include="Model\Jogador.cs" />
+    <Compile Include="Model\Mapa.cs" />
+    <Compile Include="Model\Territorio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
