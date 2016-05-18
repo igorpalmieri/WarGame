@@ -8,7 +8,7 @@ namespace WarGame.Model
 {
     public class Continente
     {
-        public string Nome { get; }
+        public  string            Nome { get; }
         private List<Territorio> _territorios;
 
         public Continente(string nome, List<Territorio> territorios)

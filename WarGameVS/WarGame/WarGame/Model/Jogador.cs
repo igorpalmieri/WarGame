@@ -8,18 +8,17 @@ namespace WarGame.Model
 {
     public class Jogador
     {
-        public string Nome { get;}
-        private List<Exercito> _exercitosDisponiveis;
-        private CartaObjetivo objetivo;
-        private List<CartaTerritorio> _cartasTerr;
+        public  string                Nome { get;}
+        private List<Exercito>        _exercitosDisponiveis;
+        private CartaObjetivo         _cartaObjetivo;
+        private List<CartaTerritorio> _cartasTerritorio;
 
-
-        public Jogador(string nome)
+        public Jogador(string nome, CartaObjetivo cartaObjetivo)
         {
             this.Nome = nome;
             this._exercitosDisponiveis = new List<Exercito>();
-            this._cartasTerr = new List<CartaTerritorio>();
-            this.objetivo = new CartaObjetivo();
+            this._cartaObjetivo = cartaObjetivo;
+            this._cartasTerritorio = new List<CartaTerritorio>();
         }
 
         public void receberExercito(Exercito exercito)
@@ -48,23 +47,6 @@ namespace WarGame.Model
             var exercito = _exercitosDisponiveis[0];
             _exercitosDisponiveis.Remove(exercito);
             return exercito;
-        }  
-        
-        public void receberObjetivo(CartaObjetivo objetivo) 
-        {
-            this.objetivo = objetivo;
         }
-
-        public void receberCartaTerritorio(CartaTerritorio cTerr)
-        {
-            this._cartasTerr.Add(cTerr);
-        }
-
-        public CartaTerritorio darCartaTerritorio(CartaTerritorio cTerr)
-        {
-            this._cartasTerr.Remove(cTerr);
-            return cTerr;
-        }
-
     }
 }

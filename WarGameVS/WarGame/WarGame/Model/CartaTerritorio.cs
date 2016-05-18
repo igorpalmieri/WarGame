@@ -8,8 +8,8 @@ namespace WarGame.Model
 {
     public class CartaTerritorio
     {
-        public Territorio terr { get; }
-        public string simbolo { get; }
+        public Territorio terr    { get; }
+        public string     simbolo { get; }
 
         public CartaTerritorio(Territorio terr, string simbolo)
         {

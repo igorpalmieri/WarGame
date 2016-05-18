@@ -8,7 +8,7 @@ namespace WarGame.Model
 {
     public class Movimento
     {
-        private Jogador _jogador;
+        private Jogador    _jogador;
         private Territorio _territorioOrigem, _territorioDestino;
         
         public Movimento(Jogador jogador, Territorio territorioOrigem, Territorio territorioDestino)

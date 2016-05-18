@@ -8,7 +8,7 @@ namespace WarGame.Model
 {
     public class CartaObjetivo
     {
-        public string descricao { get;}
+        public string descricao { get; }
 
         public CartaObjetivo() { }
         public CartaObjetivo(string descricao)

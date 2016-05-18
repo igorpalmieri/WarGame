@@ -8,9 +8,9 @@ namespace WarGame.Model
 {
     public class Territorio
     {
-        public string Nome { get; }
+        public  string            Nome { get; }
         private List<Territorio> _fronteiras;
-        private List<Exercito> _exercitos;
+        private List<Exercito>   _exercitos;
 
         public Territorio(string nome)
         {
