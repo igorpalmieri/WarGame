@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace WarGame.Model
 {
-    class Exercito
+    public class Exercito
     {
-        private Jogador comandante;
+        public Jogador Comandante { get; set; }
     }
 }

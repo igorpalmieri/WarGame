@@ -8,8 +8,19 @@ namespace WarGame.Model
 {
     public class Territorio
     {
-        private string nome { get; set; }
-        private List<Territorio> fronteiras;
-        private List<Exercito> exercitos;
+        public string Nome { get; }
+        private List<Territorio> _fronteiras;
+        private List<Exercito> _exercitos;
+
+        public Territorio(string nome)
+        {
+            this.Nome = nome;
+        }
+
+        public Territorio(string nome, List<Territorio> fronteiras)
+        {
+            this.Nome = nome;
+            this._fronteiras = new List<Territorio>(fronteiras);
+        }
     }
 }

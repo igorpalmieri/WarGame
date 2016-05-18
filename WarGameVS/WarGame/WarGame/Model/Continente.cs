@@ -8,7 +8,13 @@ namespace WarGame.Model
 {
     public class Continente
     {
-        private string nome { get; set; }
-        private List<Territorio> territorios;
+        public string Nome { get; }
+        private List<Territorio> _territorios;
+
+        public Continente(string nome, List<Territorio> territorios)
+        {
+            this.Nome = nome;
+            this._territorios = new List<Territorio>(territorios);
+        }
     }
 }
