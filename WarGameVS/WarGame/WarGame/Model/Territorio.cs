@@ -22,5 +22,10 @@ namespace WarGame.Model
             this.Nome = nome;
             this._fronteiras = new List<Territorio>(fronteiras);
         }
+
+        public void addExercitos(Exercito e)
+        {
+            this._exercitos.Add(e);
+        }
     }
 }

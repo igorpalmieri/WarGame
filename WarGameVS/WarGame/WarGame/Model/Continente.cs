@@ -16,5 +16,10 @@ namespace WarGame.Model
             this.Nome = nome;
             this._territorios = new List<Territorio>(territorios);
         }
+
+        public List<Territorio> getTerritorios()
+        {
+            return new List<Territorio>(this._territorios);
+        }
     }
 }

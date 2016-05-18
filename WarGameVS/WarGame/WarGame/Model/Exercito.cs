@@ -9,5 +9,10 @@ namespace WarGame.Model
     public class Exercito
     {
         public Jogador Comandante { get; set; }
+
+        public Exercito(Jogador comandante)
+        {
+            this.Comandante = comandante;
+        }
     }
 }
