@@ -8,7 +8,7 @@ namespace WarGame.Model
 {
     public class Jogador
     {
-        public  string                Nome { get;}
+        public  string                 Nome { get;}
         private List<Exercito>        _exercitosDisponiveis;
         private CartaObjetivo         _cartaObjetivo;
         private List<CartaTerritorio> _cartasTerritorio;
