@@ -48,5 +48,11 @@ namespace WarGame.Model
             _exercitosDisponiveis.Remove(exercito);
             return exercito;
         }
+
+        public CartaTerritorio darCartaTerritorio(CartaTerritorio terr)
+        {
+            _cartasTerritorio.Remove(terr);
+            return terr;
+        }
     }
 }
