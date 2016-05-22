@@ -27,5 +27,13 @@ namespace WarGame
             buttonAvancar.Visible = true;
             numericUpDown1.Visible = true;
         }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            System.Threading.Thread.Sleep(3000);
+            this.BackgroundImage = global::WarGame.Properties.Resources.capa;
+            buttonJogar.Visible = true;
+            buttonOpt.Visible = true;
+        }
     }
 }
