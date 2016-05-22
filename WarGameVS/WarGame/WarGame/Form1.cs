@@ -27,5 +27,11 @@ namespace WarGame
             buttonAvancar.Visible = true;
             numericUpDown1.Visible = true;
         }
+
+        private void buttonAvancar_Click(object sender, EventArgs e)
+        {
+            Form_mapa mapa = new Form_mapa();
+            mapa.Show();
+        }
     }
 }

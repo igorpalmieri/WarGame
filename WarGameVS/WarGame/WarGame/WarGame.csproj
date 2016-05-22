@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -67,6 +67,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_ataque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ataque.Designer.cs">
+      <DependentUpon>Form_ataque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_combo_ataque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_combo_ataque.Designer.cs">
+      <DependentUpon>Form_combo_ataque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_mapa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_mapa.Designer.cs">
+      <DependentUpon>Form_mapa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\CartaObjetivo.cs" />
     <Compile Include="Model\CartaTerritorio.cs" />
     <Compile Include="Model\Continente.cs" />
@@ -79,6 +97,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ataque.resx">
+      <DependentUpon>Form_ataque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_combo_ataque.resx">
+      <DependentUpon>Form_combo_ataque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_mapa.resx">
+      <DependentUpon>Form_mapa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -126,6 +153,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\adv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapa.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -82,6 +82,7 @@
             this.buttonAvancar.TabIndex = 3;
             this.buttonAvancar.UseVisualStyleBackColor = false;
             this.buttonAvancar.Visible = false;
+            this.buttonAvancar.Click += new System.EventHandler(this.buttonAvancar_Click);
             // 
             // numericUpDown1
             // 
