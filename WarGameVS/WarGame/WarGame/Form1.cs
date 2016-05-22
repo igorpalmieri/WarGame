@@ -35,5 +35,11 @@ namespace WarGame
             buttonJogar.Visible = true;
             buttonOpt.Visible = true;
         }
+
+        private void buttonAvancar_Click(object sender, EventArgs e)
+        {
+
+            new Form_mapa().Show();
+        }
     }
 }

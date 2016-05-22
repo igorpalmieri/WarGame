@@ -1,4 +1,6 @@
-﻿namespace WarGame
+﻿using System;
+
+namespace WarGame
 {
     partial class Form1
     {
@@ -132,6 +134,8 @@
             this.ResumeLayout(false);
 
         }
+
+
 
         #endregion
         private System.Windows.Forms.Button buttonOpt;

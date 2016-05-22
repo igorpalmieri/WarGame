@@ -103,9 +103,9 @@ namespace WarGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap uffsoftcorp {
+        internal static System.Drawing.Bitmap mapa {
             get {
-                object obj = ResourceManager.GetObject("uffsoftcorp", resourceCulture);
+                object obj = ResourceManager.GetObject("mapa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace WarGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mapa {
+        internal static System.Drawing.Bitmap uffsoftcorp {
             get {
-                object obj = ResourceManager.GetObject("mapa", resourceCulture);
+                object obj = ResourceManager.GetObject("uffsoftcorp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
