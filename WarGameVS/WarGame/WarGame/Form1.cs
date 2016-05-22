@@ -28,10 +28,12 @@ namespace WarGame
             numericUpDown1.Visible = true;
         }
 
-        private void buttonAvancar_Click(object sender, EventArgs e)
+        private void Form1_Shown(object sender, EventArgs e)
         {
-            Form_mapa mapa = new Form_mapa();
-            mapa.Show();
+            System.Threading.Thread.Sleep(3000);
+            this.BackgroundImage = global::WarGame.Properties.Resources.capa;
+            buttonJogar.Visible = true;
+            buttonOpt.Visible = true;
         }
     }
 }
