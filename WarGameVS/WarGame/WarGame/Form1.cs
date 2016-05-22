@@ -16,5 +16,18 @@ namespace WarGame
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+# panel1.Enabled = false;
+            BackgroundImage = Properties.Resources.adv;
+            button1.Visible = true;
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
