@@ -19,15 +19,13 @@ namespace WarGame
 
         private void button1_Click(object sender, EventArgs e)
         {
-# panel1.Enabled = false;
-            BackgroundImage = Properties.Resources.adv;
-            button1.Visible = true;
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            // panel1.Enabled = false;
+            BackgroundImage = Properties.Resources.adv2;
+            buttonJogar.Visible = false;
+            buttonOpt.Visible = false;
+            buttonVoltar.Visible = true;
+            buttonAvancar.Visible = true;
+            numericUpDown1.Visible = true;
         }
     }
 }

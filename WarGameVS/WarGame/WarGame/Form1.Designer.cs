@@ -28,61 +28,110 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.buttonJogar = new System.Windows.Forms.Button();
+            this.buttonOpt = new System.Windows.Forms.Button();
+            this.buttonVoltar = new System.Windows.Forms.Button();
+            this.buttonAvancar = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonJogar
             // 
-            this.button1.Location = new System.Drawing.Point(97, 177);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(253, 56);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Jogar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonJogar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonJogar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonJogar.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonJogar.Location = new System.Drawing.Point(410, 339);
+            this.buttonJogar.Name = "buttonJogar";
+            this.buttonJogar.Size = new System.Drawing.Size(290, 63);
+            this.buttonJogar.TabIndex = 0;
+            this.buttonJogar.UseVisualStyleBackColor = false;
+            this.buttonJogar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // buttonOpt
             // 
-            this.button2.Location = new System.Drawing.Point(85, 239);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(280, 56);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Opcoes";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Visible = false;
+            this.buttonOpt.BackColor = System.Drawing.Color.Transparent;
+            this.buttonOpt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonOpt.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonOpt.Location = new System.Drawing.Point(410, 408);
+            this.buttonOpt.Name = "buttonOpt";
+            this.buttonOpt.Size = new System.Drawing.Size(290, 66);
+            this.buttonOpt.TabIndex = 1;
+            this.buttonOpt.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // buttonVoltar
             // 
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(328, 172);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(469, 333);
-            this.panel1.TabIndex = 2;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.buttonVoltar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVoltar.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonVoltar.Location = new System.Drawing.Point(401, 480);
+            this.buttonVoltar.Name = "buttonVoltar";
+            this.buttonVoltar.Size = new System.Drawing.Size(75, 71);
+            this.buttonVoltar.TabIndex = 2;
+            this.buttonVoltar.UseVisualStyleBackColor = false;
+            this.buttonVoltar.Visible = false;
+            // 
+            // buttonAvancar
+            // 
+            this.buttonAvancar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonAvancar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAvancar.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonAvancar.Location = new System.Drawing.Point(662, 480);
+            this.buttonAvancar.Name = "buttonAvancar";
+            this.buttonAvancar.Size = new System.Drawing.Size(75, 71);
+            this.buttonAvancar.TabIndex = 3;
+            this.buttonAvancar.UseVisualStyleBackColor = false;
+            this.buttonAvancar.Visible = false;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Font = new System.Drawing.Font("Century", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.Location = new System.Drawing.Point(470, 415);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(194, 50);
+            this.numericUpDown1.TabIndex = 5;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WarGame.Properties.Resources.capa3;
-            this.ClientSize = new System.Drawing.Size(1142, 549);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1142, 565);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.buttonAvancar);
+            this.Controls.Add(this.buttonVoltar);
+            this.Controls.Add(this.buttonOpt);
+            this.Controls.Add(this.buttonJogar);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button buttonJogar;
+        private System.Windows.Forms.Button buttonOpt;
+        private System.Windows.Forms.Button buttonVoltar;
+        private System.Windows.Forms.Button buttonAvancar;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 
