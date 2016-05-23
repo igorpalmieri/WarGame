@@ -28,26 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonJogar = new System.Windows.Forms.Button();
             this.buttonOpt = new System.Windows.Forms.Button();
             this.buttonVoltar = new System.Windows.Forms.Button();
             this.buttonAvancar = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonJogar
             // 
             this.buttonJogar.BackColor = System.Drawing.Color.Transparent;
-            this.buttonJogar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonJogar.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonJogar.Location = new System.Drawing.Point(410, 339);
+            this.buttonJogar.FlatAppearance.BorderSize = 0;
+            this.buttonJogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonJogar.Font = new System.Drawing.Font("Century", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonJogar.ForeColor = System.Drawing.Color.Black;
+            this.buttonJogar.Location = new System.Drawing.Point(410, 336);
             this.buttonJogar.Name = "buttonJogar";
             this.buttonJogar.Size = new System.Drawing.Size(290, 63);
             this.buttonJogar.TabIndex = 0;
             this.buttonJogar.UseVisualStyleBackColor = false;
+            this.buttonJogar.Visible = false;
             this.buttonJogar.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonOpt
@@ -60,6 +62,7 @@
             this.buttonOpt.Size = new System.Drawing.Size(290, 66);
             this.buttonOpt.TabIndex = 1;
             this.buttonOpt.UseVisualStyleBackColor = false;
+            this.buttonOpt.Visible = false;
             // 
             // buttonVoltar
             // 
@@ -84,6 +87,7 @@
             this.buttonAvancar.TabIndex = 3;
             this.buttonAvancar.UseVisualStyleBackColor = false;
             this.buttonAvancar.Visible = false;
+            this.buttonAvancar.Click += new System.EventHandler(this.buttonAvancar_Click);
             // 
             // numericUpDown1
             // 
@@ -109,44 +113,32 @@
             0});
             this.numericUpDown1.Visible = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WarGame.Properties.Resources.heligif;
-            this.pictureBox1.Location = new System.Drawing.Point(445, 62);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(148, 99);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WarGame.Properties.Resources.capa3;
+            this.BackgroundImage = global::WarGame.Properties.Resources.uffsoftcorp;
             this.ClientSize = new System.Drawing.Size(1142, 565);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.buttonAvancar);
             this.Controls.Add(this.buttonVoltar);
-            this.Controls.Add(this.buttonJogar);
             this.Controls.Add(this.buttonOpt);
+            this.Controls.Add(this.buttonJogar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "War Game - By UffSoft Corporate";
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button buttonJogar;
         private System.Windows.Forms.Button buttonOpt;
         private System.Windows.Forms.Button buttonVoltar;
         private System.Windows.Forms.Button buttonAvancar;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button buttonJogar;
     }
 }
 
