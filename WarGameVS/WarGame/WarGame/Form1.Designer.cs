@@ -119,6 +119,7 @@ namespace WarGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackgroundImage = global::WarGame.Properties.Resources.uffsoftcorp;
             this.ClientSize = new System.Drawing.Size(1142, 565);
             this.Controls.Add(this.numericUpDown1);
@@ -129,6 +130,7 @@ namespace WarGame
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "War Game - By UffSoft Corporate";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);

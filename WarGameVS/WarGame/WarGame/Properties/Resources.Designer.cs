@@ -113,29 +113,19 @@ namespace WarGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mapa2 {
+            get {
+                object obj = ResourceManager.GetObject("mapa2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap uffsoftcorp {
             get {
                 object obj = ResourceManager.GetObject("uffsoftcorp", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap gif {
-            get {
-                object obj = ResourceManager.GetObject("gif", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap heligif {
-            get {
-                object obj = ResourceManager.GetObject("heligif", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

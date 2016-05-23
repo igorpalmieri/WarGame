@@ -12,9 +12,17 @@ namespace WarGame
 {
     public partial class Form_mapa : Form
     {
-        public Form_mapa()
+       public Form_mapa()
         {
             InitializeComponent();
+            this.SuspendLayout();
+            // 
+            // Form_mapa
+            // 
+            this.ClientSize = new System.Drawing.Size(1240, 620);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "Form_mapa";
+            this.ResumeLayout(false);
         }
 
         private void Form_mapa_Load(object sender, EventArgs e)
@@ -27,5 +35,7 @@ namespace WarGame
             Form_combo_ataque frm_combo_ataque = new Form_combo_ataque();
             frm_combo_ataque.Show();
         }
+
+    
     }
 }

@@ -41,5 +41,10 @@ namespace WarGame
 
             new Form_mapa().Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+        }
     }
 }
