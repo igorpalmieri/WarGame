@@ -33,7 +33,9 @@
             this.buttonVoltar = new System.Windows.Forms.Button();
             this.buttonAvancar = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonJogar
@@ -107,20 +109,32 @@
             0});
             this.numericUpDown1.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WarGame.Properties.Resources.heligif;
+            this.pictureBox1.Location = new System.Drawing.Point(445, 62);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(148, 99);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WarGame.Properties.Resources.capa3;
             this.ClientSize = new System.Drawing.Size(1142, 565);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.buttonAvancar);
             this.Controls.Add(this.buttonVoltar);
-            this.Controls.Add(this.buttonOpt);
             this.Controls.Add(this.buttonJogar);
+            this.Controls.Add(this.buttonOpt);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,6 +146,7 @@
         private System.Windows.Forms.Button buttonVoltar;
         private System.Windows.Forms.Button buttonAvancar;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
