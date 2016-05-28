@@ -74,6 +74,7 @@
     <Compile Include="Model\Jogador.cs" />
     <Compile Include="Model\Mapa.cs" />
     <Compile Include="Model\Movimento.cs" />
+    <Compile Include="Model\Preparacao.cs" />
     <Compile Include="Model\Territorio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

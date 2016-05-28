@@ -8,6 +8,7 @@ namespace WarGame.Model
 {
     public class CartaObjetivo
     {
+        public int indice;
         public string descricao { get; }
 
         public CartaObjetivo() { }

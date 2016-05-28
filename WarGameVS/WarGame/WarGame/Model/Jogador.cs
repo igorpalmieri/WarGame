@@ -8,6 +8,7 @@ namespace WarGame.Model
 {
     public class Jogador
     {
+        public  int                    indice;
         public  string                 Nome { get;}
         private List<Exercito>        _exercitosDisponiveis;
         private CartaObjetivo         _cartaObjetivo;
@@ -53,6 +54,16 @@ namespace WarGame.Model
         {
             _cartasTerritorio.Remove(terr);
             return terr;
+        }
+
+        public void receberTerritorio(CartaTerritorio terr)
+        {
+            _cartasTerritorio.Add(terr);
+        }
+
+        public void receberObjetivo(CartaObjetivo obj)
+        {
+            _cartaObjetivo = obj;
         }
     }
 }
