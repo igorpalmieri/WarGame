@@ -71,7 +71,91 @@
             this.lblNewGuinea = new System.Windows.Forms.Label();
             this.lblAustralia = new System.Windows.Forms.Label();
             this.lblVladvostok = new System.Windows.Forms.Label();
+            this.picAlaska = new System.Windows.Forms.PictureBox();
+            this.picMackenzie = new System.Windows.Forms.PictureBox();
+            this.picVancouver = new System.Windows.Forms.PictureBox();
+            this.picCalifornia = new System.Windows.Forms.PictureBox();
+            this.picMexico = new System.Windows.Forms.PictureBox();
+            this.picNewYork = new System.Windows.Forms.PictureBox();
+            this.picOttawa = new System.Windows.Forms.PictureBox();
+            this.picLabrador = new System.Windows.Forms.PictureBox();
+            this.picGreenLand = new System.Windows.Forms.PictureBox();
+            this.picIceland = new System.Windows.Forms.PictureBox();
+            this.picEngland = new System.Windows.Forms.PictureBox();
+            this.picSpain = new System.Windows.Forms.PictureBox();
+            this.picGermany = new System.Windows.Forms.PictureBox();
+            this.picPoland = new System.Windows.Forms.PictureBox();
+            this.picSweden = new System.Windows.Forms.PictureBox();
+            this.picMoscow = new System.Windows.Forms.PictureBox();
+            this.picDudinka = new System.Windows.Forms.PictureBox();
+            this.picMiddleEast = new System.Windows.Forms.PictureBox();
+            this.picAral = new System.Windows.Forms.PictureBox();
+            this.picOmsk = new System.Windows.Forms.PictureBox();
+            this.picSiberia = new System.Windows.Forms.PictureBox();
+            this.picTchita = new System.Windows.Forms.PictureBox();
+            this.picMongolia = new System.Windows.Forms.PictureBox();
+            this.picChina = new System.Windows.Forms.PictureBox();
+            this.picIndia = new System.Windows.Forms.PictureBox();
+            this.picVietnam = new System.Windows.Forms.PictureBox();
+            this.picVladvostok = new System.Windows.Forms.PictureBox();
+            this.picJapan = new System.Windows.Forms.PictureBox();
+            this.picBorneo = new System.Windows.Forms.PictureBox();
+            this.picNewGuinea = new System.Windows.Forms.PictureBox();
+            this.picSumatra = new System.Windows.Forms.PictureBox();
+            this.picAustralia = new System.Windows.Forms.PictureBox();
+            this.picColombia = new System.Windows.Forms.PictureBox();
+            this.picBrazil = new System.Windows.Forms.PictureBox();
+            this.picChile = new System.Windows.Forms.PictureBox();
+            this.picArgentina = new System.Windows.Forms.PictureBox();
+            this.picNigeria = new System.Windows.Forms.PictureBox();
+            this.picEgypt = new System.Windows.Forms.PictureBox();
+            this.picSudan = new System.Windows.Forms.PictureBox();
+            this.picCongo = new System.Windows.Forms.PictureBox();
+            this.picSouthAfrica = new System.Windows.Forms.PictureBox();
+            this.picMadagascar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAlaska)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMackenzie)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVancouver)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCalifornia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMexico)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNewYork)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOttawa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLabrador)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGreenLand)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIceland)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEngland)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGermany)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPoland)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSweden)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMoscow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDudinka)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMiddleEast)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAral)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOmsk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSiberia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTchita)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMongolia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picChina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIndia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVietnam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVladvostok)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJapan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBorneo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNewGuinea)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSumatra)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAustralia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picColombia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBrazil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picChile)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArgentina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNigeria)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEgypt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSudan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCongo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSouthAfrica)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMadagascar)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -279,7 +363,7 @@
             // 
             this.lblIceland.AutoSize = true;
             this.lblIceland.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIceland.Location = new System.Drawing.Point(567, 74);
+            this.lblIceland.Location = new System.Drawing.Point(595, 56);
             this.lblIceland.Name = "lblIceland";
             this.lblIceland.Size = new System.Drawing.Size(20, 24);
             this.lblIceland.TabIndex = 20;
@@ -505,6 +589,426 @@
             this.lblVladvostok.TabIndex = 42;
             this.lblVladvostok.Text = "0";
             // 
+            // picAlaska
+            // 
+            this.picAlaska.BackColor = System.Drawing.Color.Transparent;
+            this.picAlaska.Location = new System.Drawing.Point(2, 53);
+            this.picAlaska.Name = "picAlaska";
+            this.picAlaska.Size = new System.Drawing.Size(97, 69);
+            this.picAlaska.TabIndex = 43;
+            this.picAlaska.TabStop = false;
+            this.picAlaska.Click += new System.EventHandler(this.picAlaska_Click);
+            // 
+            // picMackenzie
+            // 
+            this.picMackenzie.BackColor = System.Drawing.Color.Transparent;
+            this.picMackenzie.Location = new System.Drawing.Point(105, 44);
+            this.picMackenzie.Name = "picMackenzie";
+            this.picMackenzie.Size = new System.Drawing.Size(233, 54);
+            this.picMackenzie.TabIndex = 44;
+            this.picMackenzie.TabStop = false;
+            this.picMackenzie.Click += new System.EventHandler(this.picMackenzie_Click);
+            // 
+            // picVancouver
+            // 
+            this.picVancouver.BackColor = System.Drawing.Color.Transparent;
+            this.picVancouver.Location = new System.Drawing.Point(105, 104);
+            this.picVancouver.Name = "picVancouver";
+            this.picVancouver.Size = new System.Drawing.Size(152, 39);
+            this.picVancouver.TabIndex = 45;
+            this.picVancouver.TabStop = false;
+            this.picVancouver.Click += new System.EventHandler(this.picVancouver_Click);
+            // 
+            // picCalifornia
+            // 
+            this.picCalifornia.BackColor = System.Drawing.Color.Transparent;
+            this.picCalifornia.Location = new System.Drawing.Point(159, 145);
+            this.picCalifornia.Name = "picCalifornia";
+            this.picCalifornia.Size = new System.Drawing.Size(107, 63);
+            this.picCalifornia.TabIndex = 46;
+            this.picCalifornia.TabStop = false;
+            this.picCalifornia.Click += new System.EventHandler(this.picCalifornia_Click);
+            // 
+            // picMexico
+            // 
+            this.picMexico.BackColor = System.Drawing.Color.Transparent;
+            this.picMexico.Location = new System.Drawing.Point(195, 216);
+            this.picMexico.Name = "picMexico";
+            this.picMexico.Size = new System.Drawing.Size(143, 89);
+            this.picMexico.TabIndex = 47;
+            this.picMexico.TabStop = false;
+            this.picMexico.Click += new System.EventHandler(this.picMexico_Click);
+            // 
+            // picNewYork
+            // 
+            this.picNewYork.BackColor = System.Drawing.Color.Transparent;
+            this.picNewYork.Location = new System.Drawing.Point(272, 150);
+            this.picNewYork.Name = "picNewYork";
+            this.picNewYork.Size = new System.Drawing.Size(107, 63);
+            this.picNewYork.TabIndex = 48;
+            this.picNewYork.TabStop = false;
+            this.picNewYork.Click += new System.EventHandler(this.picNewYork_Click);
+            // 
+            // picOttawa
+            // 
+            this.picOttawa.BackColor = System.Drawing.Color.Transparent;
+            this.picOttawa.Location = new System.Drawing.Point(249, 110);
+            this.picOttawa.Name = "picOttawa";
+            this.picOttawa.Size = new System.Drawing.Size(98, 33);
+            this.picOttawa.TabIndex = 49;
+            this.picOttawa.TabStop = false;
+            this.picOttawa.Click += new System.EventHandler(this.picOttawa_Click);
+            // 
+            // picLabrador
+            // 
+            this.picLabrador.BackColor = System.Drawing.Color.Transparent;
+            this.picLabrador.Location = new System.Drawing.Point(344, 86);
+            this.picLabrador.Name = "picLabrador";
+            this.picLabrador.Size = new System.Drawing.Size(98, 70);
+            this.picLabrador.TabIndex = 50;
+            this.picLabrador.TabStop = false;
+            this.picLabrador.Click += new System.EventHandler(this.picLabrador_Click);
+            // 
+            // picGreenLand
+            // 
+            this.picGreenLand.BackColor = System.Drawing.Color.Transparent;
+            this.picGreenLand.Location = new System.Drawing.Point(353, 7);
+            this.picGreenLand.Name = "picGreenLand";
+            this.picGreenLand.Size = new System.Drawing.Size(195, 73);
+            this.picGreenLand.TabIndex = 51;
+            this.picGreenLand.TabStop = false;
+            this.picGreenLand.Click += new System.EventHandler(this.picGreenLand_Click);
+            // 
+            // picIceland
+            // 
+            this.picIceland.BackColor = System.Drawing.Color.Transparent;
+            this.picIceland.Location = new System.Drawing.Point(554, 73);
+            this.picIceland.Name = "picIceland";
+            this.picIceland.Size = new System.Drawing.Size(53, 25);
+            this.picIceland.TabIndex = 52;
+            this.picIceland.TabStop = false;
+            this.picIceland.Click += new System.EventHandler(this.picIceland_Click);
+            // 
+            // picEngland
+            // 
+            this.picEngland.BackColor = System.Drawing.Color.Transparent;
+            this.picEngland.Location = new System.Drawing.Point(528, 120);
+            this.picEngland.Name = "picEngland";
+            this.picEngland.Size = new System.Drawing.Size(53, 54);
+            this.picEngland.TabIndex = 53;
+            this.picEngland.TabStop = false;
+            this.picEngland.Click += new System.EventHandler(this.picEngland_Click);
+            // 
+            // picSpain
+            // 
+            this.picSpain.BackColor = System.Drawing.Color.Transparent;
+            this.picSpain.Location = new System.Drawing.Point(575, 175);
+            this.picSpain.Name = "picSpain";
+            this.picSpain.Size = new System.Drawing.Size(107, 49);
+            this.picSpain.TabIndex = 54;
+            this.picSpain.TabStop = false;
+            this.picSpain.Click += new System.EventHandler(this.picSpain_Click);
+            // 
+            // picGermany
+            // 
+            this.picGermany.BackColor = System.Drawing.Color.Transparent;
+            this.picGermany.Location = new System.Drawing.Point(620, 131);
+            this.picGermany.Name = "picGermany";
+            this.picGermany.Size = new System.Drawing.Size(59, 43);
+            this.picGermany.TabIndex = 55;
+            this.picGermany.TabStop = false;
+            this.picGermany.Click += new System.EventHandler(this.picGermany_Click);
+            // 
+            // picPoland
+            // 
+            this.picPoland.BackColor = System.Drawing.Color.Transparent;
+            this.picPoland.Location = new System.Drawing.Point(685, 166);
+            this.picPoland.Name = "picPoland";
+            this.picPoland.Size = new System.Drawing.Size(59, 47);
+            this.picPoland.TabIndex = 56;
+            this.picPoland.TabStop = false;
+            this.picPoland.Click += new System.EventHandler(this.picPoland_Click);
+            // 
+            // picSweden
+            // 
+            this.picSweden.BackColor = System.Drawing.Color.Transparent;
+            this.picSweden.Location = new System.Drawing.Point(646, 56);
+            this.picSweden.Name = "picSweden";
+            this.picSweden.Size = new System.Drawing.Size(98, 69);
+            this.picSweden.TabIndex = 57;
+            this.picSweden.TabStop = false;
+            this.picSweden.Click += new System.EventHandler(this.picSweden_Click);
+            // 
+            // picMoscow
+            // 
+            this.picMoscow.BackColor = System.Drawing.Color.Transparent;
+            this.picMoscow.Location = new System.Drawing.Point(717, 90);
+            this.picMoscow.Name = "picMoscow";
+            this.picMoscow.Size = new System.Drawing.Size(88, 107);
+            this.picMoscow.TabIndex = 58;
+            this.picMoscow.TabStop = false;
+            this.picMoscow.Click += new System.EventHandler(this.picMoscow_Click);
+            // 
+            // picDudinka
+            // 
+            this.picDudinka.BackColor = System.Drawing.Color.Transparent;
+            this.picDudinka.Location = new System.Drawing.Point(819, 64);
+            this.picDudinka.Name = "picDudinka";
+            this.picDudinka.Size = new System.Drawing.Size(89, 70);
+            this.picDudinka.TabIndex = 59;
+            this.picDudinka.TabStop = false;
+            this.picDudinka.Click += new System.EventHandler(this.picDudinka_Click);
+            // 
+            // picMiddleEast
+            // 
+            this.picMiddleEast.BackColor = System.Drawing.Color.Transparent;
+            this.picMiddleEast.Location = new System.Drawing.Point(774, 214);
+            this.picMiddleEast.Name = "picMiddleEast";
+            this.picMiddleEast.Size = new System.Drawing.Size(83, 91);
+            this.picMiddleEast.TabIndex = 60;
+            this.picMiddleEast.TabStop = false;
+            this.picMiddleEast.Click += new System.EventHandler(this.picMiddleEast_Click);
+            // 
+            // picAral
+            // 
+            this.picAral.BackColor = System.Drawing.Color.Transparent;
+            this.picAral.Location = new System.Drawing.Point(811, 165);
+            this.picAral.Name = "picAral";
+            this.picAral.Size = new System.Drawing.Size(89, 43);
+            this.picAral.TabIndex = 61;
+            this.picAral.TabStop = false;
+            this.picAral.Click += new System.EventHandler(this.picAral_Click);
+            // 
+            // picOmsk
+            // 
+            this.picOmsk.BackColor = System.Drawing.Color.Transparent;
+            this.picOmsk.Location = new System.Drawing.Point(811, 134);
+            this.picOmsk.Name = "picOmsk";
+            this.picOmsk.Size = new System.Drawing.Size(137, 56);
+            this.picOmsk.TabIndex = 62;
+            this.picOmsk.TabStop = false;
+            this.picOmsk.Click += new System.EventHandler(this.picOmsk_Click);
+            // 
+            // picSiberia
+            // 
+            this.picSiberia.BackColor = System.Drawing.Color.Transparent;
+            this.picSiberia.Location = new System.Drawing.Point(906, 53);
+            this.picSiberia.Name = "picSiberia";
+            this.picSiberia.Size = new System.Drawing.Size(142, 70);
+            this.picSiberia.TabIndex = 63;
+            this.picSiberia.TabStop = false;
+            this.picSiberia.Click += new System.EventHandler(this.picSiberia_Click);
+            // 
+            // picTchita
+            // 
+            this.picTchita.BackColor = System.Drawing.Color.Transparent;
+            this.picTchita.Location = new System.Drawing.Point(947, 125);
+            this.picTchita.Name = "picTchita";
+            this.picTchita.Size = new System.Drawing.Size(147, 37);
+            this.picTchita.TabIndex = 64;
+            this.picTchita.TabStop = false;
+            this.picTchita.Click += new System.EventHandler(this.picTchita_Click);
+            // 
+            // picMongolia
+            // 
+            this.picMongolia.BackColor = System.Drawing.Color.Transparent;
+            this.picMongolia.Location = new System.Drawing.Point(966, 162);
+            this.picMongolia.Name = "picMongolia";
+            this.picMongolia.Size = new System.Drawing.Size(128, 35);
+            this.picMongolia.TabIndex = 65;
+            this.picMongolia.TabStop = false;
+            this.picMongolia.Click += new System.EventHandler(this.picMongolia_Click);
+            // 
+            // picChina
+            // 
+            this.picChina.BackColor = System.Drawing.Color.Transparent;
+            this.picChina.Location = new System.Drawing.Point(931, 150);
+            this.picChina.Name = "picChina";
+            this.picChina.Size = new System.Drawing.Size(197, 98);
+            this.picChina.TabIndex = 66;
+            this.picChina.TabStop = false;
+            this.picChina.Click += new System.EventHandler(this.picChina_Click);
+            // 
+            // picIndia
+            // 
+            this.picIndia.BackColor = System.Drawing.Color.Transparent;
+            this.picIndia.Location = new System.Drawing.Point(859, 214);
+            this.picIndia.Name = "picIndia";
+            this.picIndia.Size = new System.Drawing.Size(77, 113);
+            this.picIndia.TabIndex = 67;
+            this.picIndia.TabStop = false;
+            this.picIndia.Click += new System.EventHandler(this.picIndia_Click);
+            // 
+            // picVietnam
+            // 
+            this.picVietnam.BackColor = System.Drawing.Color.Transparent;
+            this.picVietnam.Location = new System.Drawing.Point(990, 251);
+            this.picVietnam.Name = "picVietnam";
+            this.picVietnam.Size = new System.Drawing.Size(58, 102);
+            this.picVietnam.TabIndex = 68;
+            this.picVietnam.TabStop = false;
+            this.picVietnam.Click += new System.EventHandler(this.picVietnam_Click);
+            // 
+            // picVladvostok
+            // 
+            this.picVladvostok.BackColor = System.Drawing.Color.Transparent;
+            this.picVladvostok.Location = new System.Drawing.Point(1054, 56);
+            this.picVladvostok.Name = "picVladvostok";
+            this.picVladvostok.Size = new System.Drawing.Size(182, 134);
+            this.picVladvostok.TabIndex = 69;
+            this.picVladvostok.TabStop = false;
+            this.picVladvostok.Click += new System.EventHandler(this.picVladvostok_Click);
+            // 
+            // picJapan
+            // 
+            this.picJapan.BackColor = System.Drawing.Color.Transparent;
+            this.picJapan.Location = new System.Drawing.Point(1134, 216);
+            this.picJapan.Name = "picJapan";
+            this.picJapan.Size = new System.Drawing.Size(65, 89);
+            this.picJapan.TabIndex = 70;
+            this.picJapan.TabStop = false;
+            this.picJapan.Click += new System.EventHandler(this.picJapan_Click);
+            // 
+            // picBorneo
+            // 
+            this.picBorneo.BackColor = System.Drawing.Color.Transparent;
+            this.picBorneo.Location = new System.Drawing.Point(1048, 326);
+            this.picBorneo.Name = "picBorneo";
+            this.picBorneo.Size = new System.Drawing.Size(65, 63);
+            this.picBorneo.TabIndex = 71;
+            this.picBorneo.TabStop = false;
+            this.picBorneo.Click += new System.EventHandler(this.picBorneo_Click);
+            // 
+            // picNewGuinea
+            // 
+            this.picNewGuinea.BackColor = System.Drawing.Color.Transparent;
+            this.picNewGuinea.Location = new System.Drawing.Point(1127, 326);
+            this.picNewGuinea.Name = "picNewGuinea";
+            this.picNewGuinea.Size = new System.Drawing.Size(98, 72);
+            this.picNewGuinea.TabIndex = 72;
+            this.picNewGuinea.TabStop = false;
+            this.picNewGuinea.Click += new System.EventHandler(this.picNewGuinea_Click);
+            // 
+            // picSumatra
+            // 
+            this.picSumatra.BackColor = System.Drawing.Color.Transparent;
+            this.picSumatra.Location = new System.Drawing.Point(931, 345);
+            this.picSumatra.Name = "picSumatra";
+            this.picSumatra.Size = new System.Drawing.Size(117, 108);
+            this.picSumatra.TabIndex = 73;
+            this.picSumatra.TabStop = false;
+            this.picSumatra.Click += new System.EventHandler(this.picSumatra_Click);
+            // 
+            // picAustralia
+            // 
+            this.picAustralia.BackColor = System.Drawing.Color.Transparent;
+            this.picAustralia.Location = new System.Drawing.Point(1054, 399);
+            this.picAustralia.Name = "picAustralia";
+            this.picAustralia.Size = new System.Drawing.Size(171, 138);
+            this.picAustralia.TabIndex = 74;
+            this.picAustralia.TabStop = false;
+            this.picAustralia.Click += new System.EventHandler(this.picAustralia_Click);
+            // 
+            // picColombia
+            // 
+            this.picColombia.BackColor = System.Drawing.Color.Transparent;
+            this.picColombia.Location = new System.Drawing.Point(344, 275);
+            this.picColombia.Name = "picColombia";
+            this.picColombia.Size = new System.Drawing.Size(108, 78);
+            this.picColombia.TabIndex = 75;
+            this.picColombia.TabStop = false;
+            this.picColombia.Click += new System.EventHandler(this.picColombia_Click);
+            // 
+            // picBrazil
+            // 
+            this.picBrazil.BackColor = System.Drawing.Color.Transparent;
+            this.picBrazil.Location = new System.Drawing.Point(385, 320);
+            this.picBrazil.Name = "picBrazil";
+            this.picBrazil.Size = new System.Drawing.Size(136, 142);
+            this.picBrazil.TabIndex = 76;
+            this.picBrazil.TabStop = false;
+            this.picBrazil.Click += new System.EventHandler(this.picBrazil_Click);
+            // 
+            // picChile
+            // 
+            this.picChile.BackColor = System.Drawing.Color.Transparent;
+            this.picChile.Location = new System.Drawing.Point(326, 359);
+            this.picChile.Name = "picChile";
+            this.picChile.Size = new System.Drawing.Size(102, 190);
+            this.picChile.TabIndex = 77;
+            this.picChile.TabStop = false;
+            this.picChile.Click += new System.EventHandler(this.picChile_Click);
+            // 
+            // picArgentina
+            // 
+            this.picArgentina.BackColor = System.Drawing.Color.Transparent;
+            this.picArgentina.Location = new System.Drawing.Point(385, 408);
+            this.picArgentina.Name = "picArgentina";
+            this.picArgentina.Size = new System.Drawing.Size(57, 141);
+            this.picArgentina.TabIndex = 78;
+            this.picArgentina.TabStop = false;
+            this.picArgentina.Click += new System.EventHandler(this.picArgentina_Click);
+            // 
+            // picNigeria
+            // 
+            this.picNigeria.BackColor = System.Drawing.Color.Transparent;
+            this.picNigeria.Location = new System.Drawing.Point(556, 227);
+            this.picNigeria.Name = "picNigeria";
+            this.picNigeria.Size = new System.Drawing.Size(162, 137);
+            this.picNigeria.TabIndex = 79;
+            this.picNigeria.TabStop = false;
+            this.picNigeria.Click += new System.EventHandler(this.picNigeria_Click);
+            // 
+            // picEgypt
+            // 
+            this.picEgypt.BackColor = System.Drawing.Color.Transparent;
+            this.picEgypt.Location = new System.Drawing.Point(668, 230);
+            this.picEgypt.Name = "picEgypt";
+            this.picEgypt.Size = new System.Drawing.Size(100, 62);
+            this.picEgypt.TabIndex = 80;
+            this.picEgypt.TabStop = false;
+            this.picEgypt.Click += new System.EventHandler(this.picEgypt_Click);
+            // 
+            // picSudan
+            // 
+            this.picSudan.BackColor = System.Drawing.Color.Transparent;
+            this.picSudan.Location = new System.Drawing.Point(723, 281);
+            this.picSudan.Name = "picSudan";
+            this.picSudan.Size = new System.Drawing.Size(107, 142);
+            this.picSudan.TabIndex = 81;
+            this.picSudan.TabStop = false;
+            this.picSudan.Click += new System.EventHandler(this.picSudan_Click);
+            // 
+            // picCongo
+            // 
+            this.picCongo.BackColor = System.Drawing.Color.Transparent;
+            this.picCongo.Location = new System.Drawing.Point(661, 356);
+            this.picCongo.Name = "picCongo";
+            this.picCongo.Size = new System.Drawing.Size(83, 85);
+            this.picCongo.TabIndex = 82;
+            this.picCongo.TabStop = false;
+            this.picCongo.Click += new System.EventHandler(this.picCongo_Click);
+            // 
+            // picSouthAfrica
+            // 
+            this.picSouthAfrica.BackColor = System.Drawing.Color.Transparent;
+            this.picSouthAfrica.Location = new System.Drawing.Point(668, 438);
+            this.picSouthAfrica.Name = "picSouthAfrica";
+            this.picSouthAfrica.Size = new System.Drawing.Size(107, 85);
+            this.picSouthAfrica.TabIndex = 83;
+            this.picSouthAfrica.TabStop = false;
+            this.picSouthAfrica.Click += new System.EventHandler(this.picSouthAfrica_Click);
+            // 
+            // picMadagascar
+            // 
+            this.picMadagascar.BackColor = System.Drawing.Color.Transparent;
+            this.picMadagascar.Location = new System.Drawing.Point(789, 419);
+            this.picMadagascar.Name = "picMadagascar";
+            this.picMadagascar.Size = new System.Drawing.Size(57, 58);
+            this.picMadagascar.TabIndex = 84;
+            this.picMadagascar.TabStop = false;
+            this.picMadagascar.Click += new System.EventHandler(this.picMadagascar_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -554,10 +1058,94 @@
             this.Controls.Add(this.lblAlaska);
             this.Controls.Add(this.lblMackenzie);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picAlaska);
+            this.Controls.Add(this.picMackenzie);
+            this.Controls.Add(this.picVancouver);
+            this.Controls.Add(this.picCalifornia);
+            this.Controls.Add(this.picMexico);
+            this.Controls.Add(this.picNewYork);
+            this.Controls.Add(this.picOttawa);
+            this.Controls.Add(this.picLabrador);
+            this.Controls.Add(this.picGreenLand);
+            this.Controls.Add(this.picIceland);
+            this.Controls.Add(this.picEngland);
+            this.Controls.Add(this.picSpain);
+            this.Controls.Add(this.picGermany);
+            this.Controls.Add(this.picPoland);
+            this.Controls.Add(this.picDudinka);
+            this.Controls.Add(this.picMiddleEast);
+            this.Controls.Add(this.picAral);
+            this.Controls.Add(this.picSiberia);
+            this.Controls.Add(this.picOmsk);
+            this.Controls.Add(this.picJapan);
+            this.Controls.Add(this.picVietnam);
+            this.Controls.Add(this.picTchita);
+            this.Controls.Add(this.picIndia);
+            this.Controls.Add(this.picMongolia);
+            this.Controls.Add(this.picChina);
+            this.Controls.Add(this.picVladvostok);
+            this.Controls.Add(this.picBorneo);
+            this.Controls.Add(this.picNewGuinea);
+            this.Controls.Add(this.picSumatra);
+            this.Controls.Add(this.picAustralia);
+            this.Controls.Add(this.picArgentina);
+            this.Controls.Add(this.picChile);
+            this.Controls.Add(this.picBrazil);
+            this.Controls.Add(this.picColombia);
+            this.Controls.Add(this.picMadagascar);
+            this.Controls.Add(this.picSouthAfrica);
+            this.Controls.Add(this.picCongo);
+            this.Controls.Add(this.picEgypt);
+            this.Controls.Add(this.picSudan);
+            this.Controls.Add(this.picNigeria);
+            this.Controls.Add(this.picSweden);
+            this.Controls.Add(this.picMoscow);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAlaska)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMackenzie)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVancouver)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCalifornia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMexico)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNewYork)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOttawa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLabrador)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGreenLand)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIceland)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEngland)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGermany)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPoland)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSweden)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMoscow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDudinka)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMiddleEast)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAral)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOmsk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSiberia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTchita)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMongolia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picChina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIndia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVietnam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVladvostok)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJapan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBorneo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNewGuinea)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSumatra)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAustralia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picColombia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBrazil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picChile)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArgentina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNigeria)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEgypt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSudan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCongo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSouthAfrica)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMadagascar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -608,5 +1196,47 @@
         private System.Windows.Forms.Label lblNewGuinea;
         private System.Windows.Forms.Label lblAustralia;
         private System.Windows.Forms.Label lblVladvostok;
+        private System.Windows.Forms.PictureBox picAlaska;
+        private System.Windows.Forms.PictureBox picMackenzie;
+        private System.Windows.Forms.PictureBox picVancouver;
+        private System.Windows.Forms.PictureBox picCalifornia;
+        private System.Windows.Forms.PictureBox picMexico;
+        private System.Windows.Forms.PictureBox picNewYork;
+        private System.Windows.Forms.PictureBox picOttawa;
+        private System.Windows.Forms.PictureBox picLabrador;
+        private System.Windows.Forms.PictureBox picGreenLand;
+        private System.Windows.Forms.PictureBox picIceland;
+        private System.Windows.Forms.PictureBox picEngland;
+        private System.Windows.Forms.PictureBox picSpain;
+        private System.Windows.Forms.PictureBox picGermany;
+        private System.Windows.Forms.PictureBox picPoland;
+        private System.Windows.Forms.PictureBox picSweden;
+        private System.Windows.Forms.PictureBox picMoscow;
+        private System.Windows.Forms.PictureBox picDudinka;
+        private System.Windows.Forms.PictureBox picMiddleEast;
+        private System.Windows.Forms.PictureBox picAral;
+        private System.Windows.Forms.PictureBox picOmsk;
+        private System.Windows.Forms.PictureBox picSiberia;
+        private System.Windows.Forms.PictureBox picTchita;
+        private System.Windows.Forms.PictureBox picMongolia;
+        private System.Windows.Forms.PictureBox picChina;
+        private System.Windows.Forms.PictureBox picIndia;
+        private System.Windows.Forms.PictureBox picVietnam;
+        private System.Windows.Forms.PictureBox picVladvostok;
+        private System.Windows.Forms.PictureBox picJapan;
+        private System.Windows.Forms.PictureBox picBorneo;
+        private System.Windows.Forms.PictureBox picNewGuinea;
+        private System.Windows.Forms.PictureBox picSumatra;
+        private System.Windows.Forms.PictureBox picAustralia;
+        private System.Windows.Forms.PictureBox picColombia;
+        private System.Windows.Forms.PictureBox picBrazil;
+        private System.Windows.Forms.PictureBox picChile;
+        private System.Windows.Forms.PictureBox picArgentina;
+        private System.Windows.Forms.PictureBox picNigeria;
+        private System.Windows.Forms.PictureBox picEgypt;
+        private System.Windows.Forms.PictureBox picSudan;
+        private System.Windows.Forms.PictureBox picCongo;
+        private System.Windows.Forms.PictureBox picSouthAfrica;
+        private System.Windows.Forms.PictureBox picMadagascar;
     }
 }
