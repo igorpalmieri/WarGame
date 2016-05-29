@@ -12,7 +12,9 @@ namespace WarGame
 {
     public partial class Form_mapa : Form
     {
-       public Form_mapa()
+        private PictureBox pictureBox1;
+
+        public Form_mapa()
         {
             InitializeComponent();
             this.SuspendLayout();
@@ -22,6 +24,27 @@ namespace WarGame
             this.ClientSize = new System.Drawing.Size(1240, 620);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form_mapa";
+            this.ResumeLayout(false);
+
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(32, 402);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(170, 158);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Form_mapa
+            // 
+            this.BackgroundImage = global::WarGame.Properties.Resources.mapa;
+            this.ClientSize = new System.Drawing.Size(1230, 609);
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "Form_mapa";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -36,6 +59,6 @@ namespace WarGame
             frm_combo_ataque.Show();
         }
 
-    
+       
     }
 }
