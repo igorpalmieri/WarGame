@@ -12,14 +12,20 @@ namespace WarGame
 {
     public partial class Form2 : Form
     {
+        public String objetivo;
+
         public Form2()
         {
+            Random rnd = new Random();
+            int aleatorio = rnd.Next(0, 3);
+            String[] objetivos = { "Conquistar a Ásia", "Conquistar a América do Sul", "Eliminar Bolsonaro", "Juntar 20 territórios" };
+            objetivo = objetivos[aleatorio];
             InitializeComponent();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            String objetivo = "Tentar conquistar o mundo";
+            
             MessageBox.Show("Seu objetivo é: " + objetivo);
         }
 
