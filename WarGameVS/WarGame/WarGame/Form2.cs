@@ -13,13 +13,27 @@ namespace WarGame
     public partial class Form2 : Form
     {
         public String objetivo;
+        public String cor;
 
-        public Form2()
+        public Form2(String cor)
         {
+            this.cor = cor;
             Random rnd = new Random();
             int aleatorio = rnd.Next(0, 3);
-            String[] objetivos = { "Conquistar a Ásia", "Conquistar a América do Sul", "Eliminar Bolsonaro", "Juntar 20 territórios" };
+            String[] objetivos = { "Conquistar a Ásia", "Conquistar a América do Sul", "Eliminar time ", "Juntar 20 territórios" };
             objetivo = objetivos[aleatorio];
+            if(objetivo.Equals("Eliminar time "))
+            {
+                String[] cores = { "azul", "amarelo", "vermelho", "verde" };
+                int random_int = rnd.Next(0, 3);
+                String cor_adversario = cores[random_int];
+                while (cor_adversario.Equals(cor))
+                {
+                    random_int = rnd.Next(0, 3);
+                    cor_adversario = cores[random_int];
+                }
+                objetivo += cor_adversario;
+            }
             InitializeComponent();
         }
 

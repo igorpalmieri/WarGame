@@ -12,6 +12,8 @@ namespace WarGame
 {
     public partial class Form1 : Form
     {
+        public String cor = "verde";
+
         public Form1()
         {
             InitializeComponent();
@@ -38,7 +40,7 @@ namespace WarGame
 
         private void buttonAvancar_Click(object sender, EventArgs e)
         {
-            new Form2().Show();
+            new Form2(cor).Show();
             //new Form_mapa().Show();
         }
 
@@ -91,6 +93,7 @@ namespace WarGame
             btnBolso.BackgroundImage = Properties.Resources.bolso_sad;
             btnCerebro.BackgroundImage = Properties.Resources.pink_feliz;
             btnInes.BackgroundImage = Properties.Resources.ines_sad;
+            cor = "azul";
         }
 
         private void btnVerde_Click(object sender, EventArgs e) //gloria
@@ -99,6 +102,7 @@ namespace WarGame
             btnBolso.BackgroundImage = Properties.Resources.bolso_sad;
             btnCerebro.BackgroundImage = Properties.Resources.cerebro_sad;
             btnInes.BackgroundImage = Properties.Resources.ines_sad;
+            cor = "verde";
         }
 
         private void btnBolso_Click(object sender, EventArgs e)
@@ -107,6 +111,7 @@ namespace WarGame
             btnBolso.BackgroundImage = Properties.Resources.bolso_feliz;
             btnCerebro.BackgroundImage = Properties.Resources.cerebro_sad;
             btnInes.BackgroundImage = Properties.Resources.ines_sad;
+            cor = "vermelho";
         }
 
         private void btnInes_Click(object sender, EventArgs e)
@@ -115,6 +120,7 @@ namespace WarGame
             btnBolso.BackgroundImage = Properties.Resources.bolso_sad;
             btnCerebro.BackgroundImage = Properties.Resources.cerebro_sad;
             btnInes.BackgroundImage = Properties.Resources.ines_feliz;
+            cor = "amarelo";
         }
     }
 }
