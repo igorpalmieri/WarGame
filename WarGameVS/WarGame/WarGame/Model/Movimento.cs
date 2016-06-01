@@ -30,6 +30,7 @@ namespace WarGame.Model
             }
             else if(!this._territorioDestino.getComandate().Equals(null) && !this._territorioDestino.getComandate().Equals(_jogador))
             {
+                // TODO remover caso de território nulo
                 return ResultadoMovimento.BATALHA;
             }
             else
