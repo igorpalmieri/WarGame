@@ -66,5 +66,15 @@ namespace WarGame.Model
 
             return exercitos;
         }
+
+        public int potenciaisAtacantes()
+        {
+            return (this._exercitos.Count - 1);
+        }
+
+        public int potenciaisDefensores()
+        {
+            return (this._exercitos.Count);
+        }
     }
 }
