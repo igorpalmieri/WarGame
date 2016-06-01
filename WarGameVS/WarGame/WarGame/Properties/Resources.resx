@@ -130,6 +130,9 @@
   <data name="capa_clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\capa_clean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gloria_feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gloria_feliz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ines_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ines_sad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,11 +142,11 @@
   <data name="gloria_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gloria_sad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bolso_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bolso_sad.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="capa_super_clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capa_super_clean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ines_feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ines_feliz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="objetivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\objetivo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="capa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\capa3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,6 +160,9 @@
   <data name="mapa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mapa2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tirogif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tirogif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icone.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,19 +172,25 @@
   <data name="adv_clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adv_clean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="heligif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heligif1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bolsonaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bolsonaro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mapa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gloria_feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gloria_feliz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ines_feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ines_feliz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolso_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolso_sad.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bolso_feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bolso_feliz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="objetivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\objetivo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tirogif2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tirogif2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

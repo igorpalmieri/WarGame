@@ -36,6 +36,8 @@ namespace WarGame
             this.BackgroundImage = global::WarGame.Properties.Resources.capa_clean;
             btnJogar.Visible = true;
             btnOpcoes.Visible = true;
+            imgHeli.Visible = true;
+            imgTanque.Visible = true;
         }
 
         private void buttonAvancar_Click(object sender, EventArgs e)

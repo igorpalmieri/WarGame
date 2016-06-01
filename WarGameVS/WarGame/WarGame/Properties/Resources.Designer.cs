@@ -143,6 +143,16 @@ namespace WarGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap capa_super_clean {
+            get {
+                object obj = ResourceManager.GetObject("capa_super_clean", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cerebro_sad {
             get {
                 object obj = ResourceManager.GetObject("cerebro_sad", resourceCulture);
@@ -176,6 +186,16 @@ namespace WarGame.Properties {
         internal static System.Drawing.Bitmap gloria_sad {
             get {
                 object obj = ResourceManager.GetObject("gloria_sad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap heligif {
+            get {
+                object obj = ResourceManager.GetObject("heligif", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +276,26 @@ namespace WarGame.Properties {
         internal static System.Drawing.Bitmap seta {
             get {
                 object obj = ResourceManager.GetObject("seta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tirogif {
+            get {
+                object obj = ResourceManager.GetObject("tirogif", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tirogif2 {
+            get {
+                object obj = ResourceManager.GetObject("tirogif2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

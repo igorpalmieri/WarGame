@@ -44,11 +44,15 @@ namespace WarGame
             this.fundoVermelho = new System.Windows.Forms.PictureBox();
             this.fundoAzul = new System.Windows.Forms.PictureBox();
             this.fundoAmarelo = new System.Windows.Forms.PictureBox();
+            this.imgHeli = new System.Windows.Forms.PictureBox();
+            this.imgTanque = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fundoVerde)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fundoVermelho)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fundoAzul)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fundoAmarelo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHeli)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgTanque)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonVoltar
@@ -238,6 +242,29 @@ namespace WarGame
             this.fundoAmarelo.TabStop = false;
             this.fundoAmarelo.Visible = false;
             // 
+            // imgHeli
+            // 
+            this.imgHeli.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgHeli.Image = global::WarGame.Properties.Resources.heligif;
+            this.imgHeli.Location = new System.Drawing.Point(462, 57);
+            this.imgHeli.Name = "imgHeli";
+            this.imgHeli.Size = new System.Drawing.Size(107, 88);
+            this.imgHeli.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgHeli.TabIndex = 16;
+            this.imgHeli.TabStop = false;
+            this.imgHeli.Visible = false;
+            // 
+            // imgTanque
+            // 
+            this.imgTanque.Image = global::WarGame.Properties.Resources.tirogif2;
+            this.imgTanque.Location = new System.Drawing.Point(91, 282);
+            this.imgTanque.Name = "imgTanque";
+            this.imgTanque.Size = new System.Drawing.Size(265, 219);
+            this.imgTanque.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgTanque.TabIndex = 17;
+            this.imgTanque.TabStop = false;
+            this.imgTanque.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,6 +272,8 @@ namespace WarGame
             this.AutoSize = true;
             this.BackgroundImage = global::WarGame.Properties.Resources.uffsoftcorp;
             this.ClientSize = new System.Drawing.Size(1142, 565);
+            this.Controls.Add(this.imgTanque);
+            this.Controls.Add(this.imgHeli);
             this.Controls.Add(this.btnInes);
             this.Controls.Add(this.btnCerebro);
             this.Controls.Add(this.btnGloria);
@@ -268,6 +297,8 @@ namespace WarGame
             ((System.ComponentModel.ISupportInitialize)(this.fundoVermelho)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fundoAzul)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fundoAmarelo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHeli)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgTanque)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,6 +319,8 @@ namespace WarGame
         private System.Windows.Forms.PictureBox fundoVermelho;
         private System.Windows.Forms.PictureBox fundoAzul;
         private System.Windows.Forms.PictureBox fundoAmarelo;
+        private System.Windows.Forms.PictureBox imgHeli;
+        private System.Windows.Forms.PictureBox imgTanque;
         //private System.Windows.Forms.Button buttonJogar;
     }
 }
