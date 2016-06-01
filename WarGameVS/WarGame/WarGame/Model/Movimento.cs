@@ -10,17 +10,44 @@ namespace WarGame.Model
     {
         private Jogador    _jogador;
         private Territorio _territorioOrigem, _territorioDestino;
-        
-        public Movimento(Jogador jogador, Territorio territorioOrigem, Territorio territorioDestino)
+        private int        _numExercitosMover;
+
+        public enum ResultadoMovimento { VALIDO, SEM_FRONTEIRA, BATALHA }
+
+        public Movimento(Jogador jogador, Territorio territorioOrigem, Territorio territorioDestino, int numExercitosMover)
         {
             this._jogador = jogador;
             this._territorioOrigem = territorioOrigem;
             this._territorioDestino = territorioDestino;
+            this._numExercitosMover = numExercitosMover;
         }
 
-        public bool validarMovimento()
+        public ResultadoMovimento validarMovimento()
         {
-            return false;
+            if(!this._territorioOrigem.isVizinho(this._territorioDestino))
+            {
+                return ResultadoMovimento.SEM_FRONTEIRA;
+            }
+            else if(!this._territorioDestino.getComandate().Equals(null) && !this._territorioDestino.getComandate().Equals(_jogador))
+            {
+                return ResultadoMovimento.BATALHA;
+            }
+            else
+            {
+                return ResultadoMovimento.VALIDO;
+            }
+        }
+
+        public void realizarMovimento()
+        {
+            if(this.validarMovimento() == ResultadoMovimento.VALIDO)
+            {
+                this._territorioDestino.addExercitos(this._territorioOrigem.getExercitosByQuantidade(this._numExercitosMover));
+            }
+            else
+            {
+                throw new Exception("Movimento inválido");
+            }
         }
     }
 }
