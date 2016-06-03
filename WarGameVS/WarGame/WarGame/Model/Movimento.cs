@@ -24,11 +24,11 @@ namespace WarGame.Model
 
         public ResultadoMovimento validarMovimento()
         {
-            if(!this._territorioOrigem.isVizinho(this._territorioDestino))
+            if(!this._territorioOrigem.IsVizinho(this._territorioDestino))
             {
                 return ResultadoMovimento.SEM_FRONTEIRA;
             }
-            else if(!this._territorioDestino.getComandate().Equals(null) && !this._territorioDestino.getComandate().Equals(_jogador))
+            else if(!this._territorioDestino.GetComandate().Equals(null) && !this._territorioDestino.GetComandate().Equals(_jogador))
             {
                 // TODO remover caso de território nulo
                 return ResultadoMovimento.BATALHA;
@@ -43,7 +43,7 @@ namespace WarGame.Model
         {
             if(this.validarMovimento() == ResultadoMovimento.VALIDO)
             {
-                this._territorioDestino.addExercitos(this._territorioOrigem.getExercitosByQuantidade(this._numExercitosMover));
+                this._territorioDestino.AddExercitos(this._territorioOrigem.GetExercitosByQuantidade(this._numExercitosMover));
             }
             else
             {

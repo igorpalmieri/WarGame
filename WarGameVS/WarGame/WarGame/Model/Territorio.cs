@@ -25,22 +25,22 @@ namespace WarGame.Model
             this._fronteiras = new List<Territorio>(fronteiras);
         }
 
-        public void addExercito(Exercito e)
+        public void AddExercito(Exercito e)
         {
             this._exercitos.Add(e);
         }
 
-        public void addExercitos(List<Exercito> exercitos)
+        public void AddExercitos(List<Exercito> exercitos)
         {
             this._exercitos.AddRange(exercitos);
         }
 
-        public bool isVizinho(Territorio t)
+        public bool IsVizinho(Territorio t)
         {
             return this._fronteiras.Any(fronteira => fronteira.Equals(t));
         }
 
-        public Jogador getComandate()
+        public Jogador GetComandate()
         {
             if(this._exercitos.Count == 0)
             {
@@ -52,7 +52,7 @@ namespace WarGame.Model
             }
         }
 
-        public List<Exercito> getExercitosByQuantidade(int numExercitos)
+        public List<Exercito> GetExercitosByQuantidade(int numExercitos)
         {
             if(numExercitos > this._exercitos.Count - 1)
             {
@@ -67,12 +67,12 @@ namespace WarGame.Model
             return exercitos;
         }
 
-        public int potenciaisAtacantes()
+        public int PotenciaisAtacantes()
         {
-            return (this._exercitos.Count - 1);
+            return ((this._exercitos.Count - 1) > 3) ? 3 : this._exercitos.Count - 1;
         }
 
-        public int potenciaisDefensores()
+        public int PotenciaisDefensores()
         {
             return (this._exercitos.Count);
         }

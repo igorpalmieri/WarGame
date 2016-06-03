@@ -25,7 +25,7 @@ namespace WarGame.Model
         /// <returns>Boolean de validade do movimento</returns>
         public bool validarMovimento()
         {
-            if((this._territorioDestino.getComandate() == null) || (this._territorioDestino.getComandate() != this._exercitos[0].Comandante))
+            if((this._territorioDestino.GetComandate() == null) || (this._territorioDestino.GetComandate() != this._exercitos[0].Comandante))
             {
                 return false;
             }
@@ -39,7 +39,7 @@ namespace WarGame.Model
         {
             if(this.validarMovimento() == true)
             {
-                this._territorioDestino.addExercitos(this._exercitos);
+                this._territorioDestino.AddExercitos(this._exercitos);
             }
         }
     }
