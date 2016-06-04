@@ -71,14 +71,14 @@ namespace WarGame.Model
 		{
 			return (from exercito in this._exercitos
 				 	where !exercito.TerritorioOcupado.Equals (null)
-				 	select exercito.TerritorioOcupado).Count;
+				 	select exercito.TerritorioOcupado).Count();
 		}
 
 		public int QuantidadeExercitosAReceber()
 		{
 			//TODO implementar modificadores de cartas e continentes
 			int quantidadeExercitosReceber = 0;
-			quantidadeExercitosReceber += Math.Floor(this.QuantidadeTerritorios / 2);
+            quantidadeExercitosReceber += (int) this.QuantidadeExercitosAReceber() / 2;
 
 			return quantidadeExercitosReceber;
 		}
