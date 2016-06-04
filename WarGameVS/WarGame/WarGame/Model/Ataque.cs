@@ -48,10 +48,12 @@ namespace WarGame.Model
 
         private void ObterExercitos()
         {
-            var exercitosAtaque = this._territorioOrigem.GetExercitosByQuantidade(this._numeroExercitosAtaque);
-            var exercitosDefesa = this._territorioDestino.GetExercitosByQuantidade(this._numeroExercitosDefesa);
+            var exercitosAtaque = this._territorioOrigem.GetExercitosByQuantidade(this._numeroExercitosAtaque);  /* extrai x exércitos do território origem */
+            var exercitosDefesa = this._territorioDestino.GetExercitosByQuantidade(this._numeroExercitosDefesa); /* extrai x exércitos do territorio destino */
 
-            exercitosAtaque.ForEach(exercito => this._exercitosAtacantes.Add(exercito, 0));
+			/* insere os exercitos extraidos do territorio origem na jogada com um valor de dado 0 */
+			exercitosAtaque.ForEach(exercito => this._exercitosAtacantes.Add(exercito, 0));
+			/* insere os exercitos extraidos do territorio destino na jogada com um valor de dado 0 */
             exercitosDefesa.ForEach(exercito => this._exercitosDefensores.Add(exercito, 0));
         }
 
@@ -71,6 +73,7 @@ namespace WarGame.Model
 
         public bool ValidarAtaque()
         {
+			//TODO atualizar validação do ataque
             if(this._territorioOrigem.IsVizinho(this._territorioDestino) &&
                 this._numeroExercitosAtaque != 0 &&
                 this._numeroExercitosDefesa != 0 &&

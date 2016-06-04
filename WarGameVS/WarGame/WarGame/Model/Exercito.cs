@@ -8,7 +8,13 @@ namespace WarGame.Model
 {
     public class Exercito
     {
-        public Jogador Comandante { get; set; }
+		public  Jogador    Comandante { get; set; }
+		private Territorio _territorioOcupado = null;
+		public  Territorio TerritorioOcupado 
+		{ 
+			get { return this._territorioOcupado; } 
+			set { this._territorioOcupado = value; } 
+		}
 
         public Exercito(Jogador comandante)
         {

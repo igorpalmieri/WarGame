@@ -8,9 +8,9 @@ namespace WarGame.Model
 {
     public class Territorio
     {
-        public string Nome { get; }
+        public  string           Nome { get; }
         private List<Territorio> _fronteiras;
-        private List<Exercito> _exercitos;
+        private List<Exercito>   _exercitos;
 
         public Territorio(string nome)
         {
@@ -27,17 +27,19 @@ namespace WarGame.Model
 
         public void AddExercito(Exercito e)
         {
+			e.TerritorioOcupado = this;
             this._exercitos.Add(e);
         }
 
         public void AddExercitos(List<Exercito> exercitos)
         {
+			exercitos.ForEach(ex => ex.TerritorioOcupado = this);
             this._exercitos.AddRange(exercitos);
         }
 
         public bool IsVizinho(Territorio t)
         {
-            return this._fronteiras.Any(fronteira => fronteira.Equals(t));
+			return this._fronteiras.Any(fronteira => fronteira.Equals(t));
         }
 
         public Jogador GetComandate()
@@ -59,10 +61,9 @@ namespace WarGame.Model
                 throw new Exception("Não é possível obter esta quantidade de exércitos");
             }
 
-            //Obtem o numero de exercitos desejado
-            var exercitos = this._exercitos.Take(numExercitos).ToList();
-            //remove os exercitos do territorio para a lista
-            exercitos.ForEach(e => this._exercitos.Remove(e));
+			var exercitos = this._exercitos.Take(numExercitos).ToList(); /* Obtem o numero de exercitos desejado */
+			exercitos.ForEach (ex => ex.TerritorioOcupado = null);		 /* desassocia os exercitos do territorio antes de removê-los do território */
+			exercitos.ForEach(e => this._exercitos.Remove(e)); 			 /* move os exercitos do territorio para a lista */
 
             return exercitos;
         }

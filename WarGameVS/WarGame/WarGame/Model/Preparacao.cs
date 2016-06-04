@@ -37,7 +37,7 @@ namespace WarGame.Model
             int[] indicesObjetivo = sortearIndicesObjetivo();
             for(int i = 0;i < _listaDeJogadores.Count; i++)
             {
-                _listaDeJogadores.ElementAt(i).receberObjetivo(_listaDeCartasObjetivo.ElementAt(indicesObjetivo[i]));
+                _listaDeJogadores.ElementAt(i).ReceberObjetivo(_listaDeCartasObjetivo.ElementAt(indicesObjetivo[i]));
             }
         }
 
@@ -72,14 +72,14 @@ namespace WarGame.Model
                 fim = (i+1) * numCartasJogador;
                 for(int j = ini;j < fim; j++)
                 {
-                    _listaDeJogadores.ElementAt(i).receberTerritorio(_listaDeCartasTerritorio.ElementAt(indicesTerritorio[j]));
+                    _listaDeJogadores.ElementAt(i).ReceberTerritorio(_listaDeCartasTerritorio.ElementAt(indicesTerritorio[j]));
                 }
                 ini = fim;
             }
             fim = ini + cartasRestantes - 1;
             while(ini != fim)
             {
-                _listaDeJogadores.ElementAt(sortearIndiceJogador()).receberTerritorio(_listaDeCartasTerritorio.ElementAt(indicesTerritorio[ini]));
+                _listaDeJogadores.ElementAt(sortearIndiceJogador()).ReceberTerritorio(_listaDeCartasTerritorio.ElementAt(indicesTerritorio[ini]));
                 ini++;
             }
         }

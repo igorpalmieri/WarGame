@@ -25,13 +25,13 @@ namespace WarGame.Model
         /// <returns>Boolean de validade do movimento</returns>
         public bool validarMovimento()
         {
-            if((this._territorioDestino.GetComandate() == null) || (this._territorioDestino.GetComandate() != this._exercitos[0].Comandante))
+            if(this._territorioDestino.GetComandate() == this._exercitos[0].Comandante)
             {
-                return false;
+                return true;
             }
             else
             {
-                return true;
+                return false;
             }
         }
 
