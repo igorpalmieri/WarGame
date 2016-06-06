@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WarGame.Model
 {
-    class Preparacao
+    public class Preparacao
     {
         private Jogador                iniciador;
         private List<Jogador>         _listaDeJogadores;
