@@ -37,6 +37,11 @@ namespace WarGame.Model
             this._exercitos.AddRange(exercitos);
         }
 
+        public int CountExercitos()
+        {
+            return this._exercitos.Count;
+        }
+
         public bool IsVizinho(Territorio t)
         {
 			return this._fronteiras.Any(fronteira => fronteira.Equals(t));

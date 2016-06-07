@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using WarGame.Exceptions;
+
 namespace WarGame.Model
 {
-    class InserirExercito
+    public class InserirExercito
     {
         private Territorio     _territorioDestino;
+        public  Territorio     TerritorioDestino { get { return this._territorioDestino; } }
         private List<Exercito> _exercitos;
 
         public InserirExercito(Territorio territorioDestino, List<Exercito> exercitos)
@@ -40,6 +43,10 @@ namespace WarGame.Model
             if(this.validarMovimento() == true)
             {
                 this._territorioDestino.AddExercitos(this._exercitos);
+            }
+            else
+            {
+                throw new JogadaInvalidaException("Movimento de inserção inválido");
             }
         }
     }

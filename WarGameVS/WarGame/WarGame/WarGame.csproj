@@ -78,6 +78,7 @@
     <Compile Include="Model\CartaTerritorio.cs" />
     <Compile Include="Model\Continente.cs" />
     <Compile Include="Model\Exercito.cs" />
+    <Compile Include="Exceptions\JogadaInvalidaException.cs" />
     <Compile Include="Model\Jogador.cs" />
     <Compile Include="Model\Mapa.cs" />
     <Compile Include="Model\Movimento.cs" />
