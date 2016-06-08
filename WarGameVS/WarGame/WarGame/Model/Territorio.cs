@@ -16,6 +16,7 @@ namespace WarGame.Model
         {
             this.Nome = nome;
             this._exercitos = new List<Exercito>();
+            this._fronteiras = new List<Territorio>();
         }
 
         public Territorio(string nome, List<Territorio> fronteiras)
@@ -23,6 +24,18 @@ namespace WarGame.Model
             this.Nome = nome;
             this._exercitos = new List<Exercito>();
             this._fronteiras = new List<Territorio>(fronteiras);
+        }
+
+        public void AddFronteira(Territorio t)
+        {
+            this._fronteiras.Add(t);
+            t.AddFronteira(this);
+        }
+
+        public void AddFronteiras(List<Territorio> t)
+        {
+            this._fronteiras.AddRange(t);
+            t.ForEach(terr => terr.AddFronteira(this));
         }
 
         public void AddExercito(Exercito e)

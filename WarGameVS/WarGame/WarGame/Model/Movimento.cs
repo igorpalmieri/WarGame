@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using WarGame.Exceptions;
+
 namespace WarGame.Model
 {
     public class Movimento
@@ -28,7 +30,7 @@ namespace WarGame.Model
             {
                 return ResultadoMovimento.SEM_FRONTEIRA;
             }
-            else if(!this._territorioDestino.GetComandate().Equals(null) && !this._territorioDestino.GetComandate().Equals(_jogador))
+            else if(!this._territorioDestino.GetComandate().Equals(_jogador))
             {
                 // TODO remover caso de território nulo
                 return ResultadoMovimento.BATALHA;
@@ -47,7 +49,7 @@ namespace WarGame.Model
             }
             else
             {
-                throw new Exception("Movimento inválido");
+                throw new JogadaInvalidaException("Movimento inválido");
             }
         }
     }

@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InserirExercitoTest.cs" />
+    <Compile Include="MovimentoTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WarGame\WarGame.csproj">

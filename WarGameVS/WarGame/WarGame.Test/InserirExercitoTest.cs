@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WarGame.Model;
 using WarGame.Exceptions;
-using System.Collections.Generic;
+
 
 namespace WarGame.Test
 {
