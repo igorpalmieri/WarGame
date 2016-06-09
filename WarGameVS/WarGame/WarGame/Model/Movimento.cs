@@ -26,6 +26,7 @@ namespace WarGame.Model
 
         public ResultadoMovimento validarMovimento()
         {
+            //TODO adicionar teste limite quantidade de exercitos movimento
             if(!this._territorioOrigem.IsVizinho(this._territorioDestino))
             {
                 return ResultadoMovimento.SEM_FRONTEIRA;
