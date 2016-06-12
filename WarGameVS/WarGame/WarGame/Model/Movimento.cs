@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using WarGame.Exceptions;
+﻿using WarGame.Exceptions;
 
 namespace WarGame.Model
 {
@@ -33,7 +27,6 @@ namespace WarGame.Model
             }
             else if(!this._territorioDestino.GetComandate().Equals(_jogador))
             {
-                // TODO remover caso de território nulo
                 return ResultadoMovimento.BATALHA;
             }
             else

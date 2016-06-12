@@ -1,8 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WarGame.Model;
 using WarGame.Exceptions;
-using System.Collections.Generic;
 
 namespace WarGame.Test
 {
@@ -32,16 +30,20 @@ namespace WarGame.Test
         }
 
         [TestMethod]
+        [ExpectedException(typeof(JogadaInvalidaException))]
         public void MovimentoSemFronteira()
         {
             Territorio territorioA = new Territorio("Territorio A");
             Territorio territorioB = new Territorio("Territorio A");
 
-            var movimento = new Movimento(null, territorioA, territorioB, 0);
-            Assert.AreEqual(Movimento.ResultadoMovimento.SEM_FRONTEIRA, movimento.validarMovimento());
+            var mov = new Movimento(null, territorioA, territorioB, 0);
+            Assert.AreEqual(Movimento.ResultadoMovimento.SEM_FRONTEIRA, mov.validarMovimento());
+
+            mov.realizarMovimento();
         }
 
         [TestMethod]
+        [ExpectedException(typeof(JogadaInvalidaException))]
         public void MovimentoBatalha()
         {
             Territorio tA = new Territorio("Territorio A");
@@ -50,9 +52,12 @@ namespace WarGame.Test
             InicializarTerritorios(tA, tB, this._jogadorA, this._jogadorB);
 
             tA.AddFronteira(tB);
+            tB.AddFronteira(tA);
 
             var mov = new Movimento(this._jogadorA, tA, tB, 2);
             Assert.AreEqual(Movimento.ResultadoMovimento.BATALHA, mov.validarMovimento());
+
+            mov.realizarMovimento();
         }
 
         [TestMethod]
@@ -64,9 +69,12 @@ namespace WarGame.Test
             InicializarTerritorios(tA, tB, this._jogadorB, this._jogadorB);
 
             tA.AddFronteira(tB);
+            tB.AddFronteira(tA);
 
             var mov = new Movimento(this._jogadorB, tA, tB, 2);
             Assert.AreEqual(Movimento.ResultadoMovimento.VALIDO, mov.validarMovimento());
+
+            mov.realizarMovimento();
         }
 
         [TestMethod]
